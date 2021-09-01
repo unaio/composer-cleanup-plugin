@@ -34,6 +34,8 @@ class Rules
             'composer.lock', // Composer lock file
             'Makefile', // Scripts, Makefile
             'Dockerfile', 'docker-compose.yml', 'docker-compose.yaml', '.dockerignore', // Docker
+
+            '.git',
         ];
     }
 
@@ -161,6 +163,8 @@ class Rules
             'wapmorgan/morphos'              => ['tests', '*.md'],
             'proj4php/proj4php'              => ['test'],
             'aws/aws-sdk-php'                => ['.changes', '.github'],
+
+            'achingbrain/php5-akismet'          => ['src/site', 'src/test'],
         ];
     }
 
