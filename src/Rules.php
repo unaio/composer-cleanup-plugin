@@ -167,6 +167,7 @@ class Rules
             'achingbrain/php5-akismet'          => ['src/site', 'src/test'],
             'tpyo/amazon-s3-php-class'          => ['example*.php'],
             'snipe/banbuilder'                  => ['tests'],
+            'chargebee/chargebee-php'           => ['test'],
         ];
     }
 
