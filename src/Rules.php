@@ -35,7 +35,7 @@ class Rules
             'Makefile', // Scripts, Makefile
             'Dockerfile', 'docker-compose.yml', 'docker-compose.yaml', '.dockerignore', // Docker
 
-            '.git',
+            '.git', '.svn',
         ];
     }
 
@@ -165,6 +165,8 @@ class Rules
             'aws/aws-sdk-php'                => ['.changes', '.github'],
 
             'achingbrain/php5-akismet'          => ['src/site', 'src/test'],
+            'unaio/amazon-s3-v2'                => ['branches', 'tags', 'trunk/example*.php'],
+            'tpyo/amazon-s3-php-class'          => ['example*.php']
         ];
     }
 
