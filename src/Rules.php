@@ -165,7 +165,7 @@ class Rules
             'aws/aws-sdk-php'                => ['.changes', '.github'],
 
             'achingbrain/php5-akismet'          => ['src/site', 'src/test'],
-            'unaio/amazon-s3-v2'                => ['branches', 'tags', 'trunk/example*.php'],
+            'unaio/amazon-s3-v2'                => ['branches', 'tags', 'trunk/example*.php', 'trunk/.svn'],
             'tpyo/amazon-s3-php-class'          => ['example*.php']
         ];
     }
