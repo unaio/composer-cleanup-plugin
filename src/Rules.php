@@ -169,6 +169,7 @@ class Rules
             'snipe/banbuilder'                  => ['tests'],
             'chargebee/chargebee-php'           => ['test'],
             'bshaffer/oauth2-server-php'        => ['test'],
+            'paypal/paypal-checkout-sdk'        => ['samples', 'tests'],
         ];
     }
 
