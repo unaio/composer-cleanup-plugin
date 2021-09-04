@@ -168,6 +168,7 @@ class Rules
             'tpyo/amazon-s3-php-class'          => ['example*.php'],
             'snipe/banbuilder'                  => ['tests'],
             'chargebee/chargebee-php'           => ['test'],
+            'bshaffer/oauth2-server-php'        => ['test'],
         ];
     }
 
